@@ -209,7 +209,7 @@ function ProfileForm() {
 
                             <FormGroup>
                             <label>Estado</label>
-                                <FormSelect id="genero" onChange={onChangeInput}>
+                                <FormSelect id="estado" onChange={onChangeInput}>
                                     <option value="no">Seleccione uno...</option>
                                     <option value="Aguascalientes">Aguascalientes</option>
                                     <option value="Baja California">Baja California</option>
@@ -275,6 +275,7 @@ function ProfileForm() {
                                 <label>Ciudad</label>
                                 <FormInput type="text" id="escuelaCiudad" placeholder="Ciudad de la escuela" onChange={onChangeInput} />
                             </FormGroup>
+
                             <FormGroup>                    
                                 <label>Estado</label>
                                 <FormInput type="text" id="escuelaEstado" placeholder="Entidad Federativa de la Escuela" onChange={onChangeInput} />
@@ -286,7 +287,7 @@ function ProfileForm() {
                             </FormGroup>
 
                             <FormGroup>                    
-                                <label>Fecha de Nacimiento</label>
+                                <label>Fecha de Termino</label>
                                 <FormInput type="date" id="EscuelaTermino" placeholder="¿En que Fecha Terminaste?" onChange={onChangeInput}/>
                             </FormGroup>
 
@@ -294,6 +295,81 @@ function ProfileForm() {
                                 <label>Grado Obtenido</label>
                                 <FormInput type="text" id="escuelaGrado" placeholder="¿Que grado o titulo obtuviste?" onChange={onChangeInput} />
                             </FormGroup>
+
+
+                            <h2>Experiencia</h2>
+
+                            <FormGroup>                    
+                                <label>Puesto</label>
+                                <FormInput type="text" id="experienciaPuesto" placeholder="Hablanos un poco acerca de lo que realizaste" onChange={onChangeInput} />
+                            </FormGroup>
+
+                            <FormGroup>                    
+                                <label>Empresa</label>
+                                <FormInput type="text" id="experienciaEmpresa" placeholder="¿En qué empresa/organización?" onChange={onChangeInput} />
+                            </FormGroup>
+
+                            <FormGroup>                    
+                                <label>Ciudad</label>
+                                <FormInput type="text" id="experienciaCiudad" placeholder="Ciudad de la escuela" onChange={onChangeInput} />
+                            </FormGroup>
+
+                            <FormGroup>
+                            <label>Estado</label>
+                                <FormSelect id="experienciaEstado" onChange={onChangeInput}>
+                                    <option value="no">Seleccione uno...</option>
+                                    <option value="Aguascalientes">Aguascalientes</option>
+                                    <option value="Baja California">Baja California</option>
+                                    <option value="Baja California Sur">Baja California Sur</option>
+                                    <option value="Campeche">Campeche</option>
+                                    <option value="Chiapas">Chiapas</option>
+                                    <option value="Chihuahua">Chihuahua</option>
+                                    <option value="Coahuila">Coahuila</option>
+                                    <option value="Colima">Colima</option>
+                                    <option value="Distrito Federal">Distrito Federal</option>
+                                    <option value="Durango">Durango</option>
+                                    <option value="Estado de México">Estado de México</option>
+                                    <option value="Guanajuato">Guanajuato</option>
+                                    <option value="Guerrero">Guerrero</option>
+                                    <option value="Hidalgo">Hidalgo</option>
+                                    <option value="Jalisco">Jalisco</option>
+                                    <option value="Michoacán">Michoacán</option>
+                                    <option value="Morelos">Morelos</option>
+                                    <option value="Nayarit">Nayarit</option>
+                                    <option value="Nuevo León">Nuevo León</option>
+                                    <option value="Oaxaca">Oaxaca</option>
+                                    <option value="Puebla">Puebla</option>
+                                    <option value="Querétaro">Querétaro</option>
+                                    <option value="Quintana Roo">Quintana Roo</option>
+                                    <option value="San Luis Potosí">San Luis Potosí</option>
+                                    <option value="Sinaloa">Sinaloa</option>
+                                    <option value="Sonora">Sonora</option>
+                                    <option value="Tabasco">Tabasco</option>
+                                    <option value="Tamaulipas">Tamaulipas</option>
+                                    <option value="Tlaxcala">Tlaxcala</option>
+                                    <option value="Veracruz">Veracruz</option>
+                                    <option value="Yucatán">Yucatán</option>
+                                    <option value="Zacatecas">Zacatecas</option>
+                                </FormSelect>
+                            </FormGroup>
+
+                            <FormGroup>
+                            <label>País</label>
+                                <FormSelect id="experienciaPais" onChange={onChangeInput}>
+                                    <option value="MX">México</option>
+                                    <option value="EU">Estados Unidos</option>
+                                    <option value="CA">Canada</option>
+                                    <option value="ES">España</option>
+                                    <option value="XY">Otro</option>
+                                </FormSelect>
+                            </FormGroup>
+
+                            {/* ITERACIONES DE COMPETENCIAS Y HABILIDADES */}
+
+                            <h4>Habilidades</h4>
+
+
+                            <h4>Competencias</h4>
 
                         </Form>
                     </Col>
