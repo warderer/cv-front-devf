@@ -1,0 +1,46 @@
+.badge{
+    margin: 2px;
+}
+
+.card{
+    margin-top:20px;
+}
+
+.card-body{
+    padding:1.25rem;
+}
+
+.card-title{
+    margin-bottom:0.2rem;
+}
+
+.ProfileCard-Subtitle{
+    font-size:16px;
+    font-weight: bold;
+}
+
+.ProfileCard-Updatedate{
+    font-size: 12px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.ProfileCard-Moreinfotext{
+    margin-bottom:0px;
+    font-size:13px;
+}
+
+.ProfileCard-Career{
+    font-style: italic;
+    font-size:16px;
+    margin-bottom:0px;
+}
+
+.ProfileCard-Gradeage{
+    margin-bottom:5px;
+    font-size:13px;
+}
+
+.ProfileCard-Separator{
+    margin:10px;
+}
