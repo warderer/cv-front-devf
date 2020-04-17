@@ -1,0 +1,14 @@
+.Header-container{
+    padding-top:30px;
+    padding-bottom:20px;
+}
+
+.Header-content{
+    background-color: rgba(214,230,242,0.5);
+}
+
+.Header-hero img {
+    object-fit: cover;
+    width:100%;
+    max-height:300px;
+}
